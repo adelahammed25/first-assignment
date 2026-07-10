@@ -21,7 +21,10 @@ Global Style Start
   font-weight: bold;
   border-radius: 10px;
   background: #1d4ed8;
+  border: solid 1px #1d4ed8;
   color: #fff;
+  transition: 0.6s;
+  cursor: pointer;
 }
 
 .btn-primary-lrg {
@@ -30,7 +33,17 @@ Global Style Start
   font-weight: bold;
   border-radius: 10px;
   background: #1d4ed8;
+  border: solid 1px #1d4ed8;
   color: #fff;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary-lrg:hover {
+  background: #fff;
+  color: #000;
+  border: solid 1px #ddd;
 }
 
 h1,
@@ -104,6 +117,7 @@ header {
   color: #ffffffe6;
   margin-top: 10px;
   line-height: 1.2em;
+  max-width: 830px;
 }
 
 /* 
